@@ -1,0 +1,22 @@
+int x;
+int y;
+
+x = 20;
+if (x > 0) {
+    y = 5;
+    if (y > 4)
+    {
+        int z;
+        write y;
+    }
+    elif (x != 20)
+    {
+        write x;
+    }
+    else
+    {
+        write 'E';
+    }
+    write 'A';
+}
+

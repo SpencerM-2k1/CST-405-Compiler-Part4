@@ -1,0 +1,4 @@
+(null) = (null) funcStart (null)
+f0 = printFloat_3.value_var load.float (null)
+(null) = f0 write.float (null)
+(null) = (null) return (null)

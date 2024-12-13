@@ -1,0 +1,4 @@
+(null) = (null) funcStart (null)
+c0 = printChar_2.value_var load.char (null)
+(null) = c0 write.char (null)
+(null) = (null) return (null)

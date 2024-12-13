@@ -1,0 +1,3725 @@
+Pushed SubTable at index 0: (ID: 0, name: main_0, address: 0x55c73a3eb7d0)
+    Index 0: (ID: 0, name: main_0, address: 0x55c73a3eb7d0)
+PARSER: Recognized variable declaration: globalInt
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+PARSER: Checking if variable has already been declared
+Name with suffix: globalInt
+newSymbol->name: globalInt
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+PARSER: Recognized variable declaration: globalChar
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+PARSER: Checking if variable has already been declared
+Name with suffix: globalChar
+newSymbol->name: globalChar
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+Unknown SymbolType.
+PARSER: Recognized variable declaration: globalFloat
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+Unknown SymbolType.
+PARSER: Checking if variable has already been declared
+Name with suffix: globalFloat
+newSymbol->name: globalFloat
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+Unknown SymbolType.
+PARSER: Recognized variable declaration: boolFlag
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+Unknown SymbolType.
+PARSER: Checking if variable has already been declared
+Name with suffix: boolFlag
+newSymbol->name: boolFlag
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+Unknown SymbolType.
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+newSymbol->name: printInt
+Pushed SubTable at index 1: (ID: 1, name: printInt_1, address: 0x55c73a3f22a0)
+    Index 1: (ID: 1, name: printInt_1, address: 0x55c73a3f22a0)
+newSymbol->name: value
+PARSER: Recognized identifier
+PARSER: Recognized write statement
+PARSER: Recognized statement list
+PARSER: Recognized function declaration: printInt
+    Comparing "printChar" and "globalChar"newSymbol->name: printChar
+Pushed SubTable at index 1: (ID: 2, name: printChar_2, address: 0x55c73a3f2990)
+    Index 1: (ID: 2, name: printChar_2, address: 0x55c73a3f2990)
+newSymbol->name: value
+PARSER: Recognized identifier
+PARSER: Recognized write statement
+PARSER: Recognized statement list
+PARSER: Recognized function declaration: printChar
+newSymbol->name: printFloat
+Pushed SubTable at index 1: (ID: 3, name: printFloat_3, address: 0x55c73a3f3080)
+    Index 1: (ID: 3, name: printFloat_3, address: 0x55c73a3f3080)
+newSymbol->name: value
+PARSER: Recognized identifier
+PARSER: Recognized write statement
+PARSER: Recognized statement list
+PARSER: Recognized function declaration: printFloat
+newSymbol->name: computeSum
+Pushed SubTable at index 1: (ID: 4, name: computeSum_4, address: 0x55c73a3f3770)
+    Index 1: (ID: 4, name: computeSum_4, address: 0x55c73a3f3770)
+newSymbol->name: a
+newSymbol->name: b
+PARSER: Recognized variable declaration: sum
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+PARSER: Checking if variable has already been declared
+Name with suffix: sum
+newSymbol->name: sum
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+PARSER: Recognized variable declaration: doubleSum
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+PARSER: Checking if variable has already been declared
+Name with suffix: doubleSum
+newSymbol->name: doubleSum
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+PARSER: Recognized variable declaration: temp
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+PARSER: Checking if variable has already been declared
+Name with suffix: temp
+newSymbol->name: temp
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+PARSER: Recognized function-scoped variable declaration list
+PARSER: Recognized function-scoped variable declaration list
+PARSER: Recognized function-scoped variable declaration list
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized addition expression
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized addition expression
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized multiplication expression
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized addition expression
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized greater-than expression
+DEBUG: Invalid NodeType
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized addition expression
+PARSER: Recognized assignment statement
+PARSER: Recognized character
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized subtraction expression
+PARSER: Recognized assignment statement
+PARSER: Recognized character
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized 'if-else' statement
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized function declaration: computeSum
+newSymbol->name: displayResult
+Pushed SubTable at index 1: (ID: 5, name: displayResult_5, address: 0x55c73a3f58a0)
+    Index 1: (ID: 5, name: displayResult_5, address: 0x55c73a3f58a0)
+newSymbol->name: result
+PARSER: Recognized variable declaration: localCopy
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+PARSER: Checking if variable has already been declared
+Name with suffix: localCopy
+newSymbol->name: localCopy
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+PARSER: Recognized function-scoped variable declaration list
+PARSER: Recognized identifier
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized addition expression
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized modulus expression
+PARSER: Recognized int number
+PARSER: Recognized equality expression
+DEBUG: Invalid NodeType
+PARSER: Recognized character
+PARSER: Recognized assignment statement
+PARSER: Recognized statement list
+PARSER: Recognized character
+PARSER: Recognized assignment statement
+PARSER: Recognized statement list
+PARSER: Recognized 'if-else' statement
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized multiplication expression
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized character
+PARSER: Recognized write statement
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized function declaration: displayResult
+newSymbol->name: multiply
+Pushed SubTable at index 1: (ID: 6, name: multiply_6, address: 0x55c73a3f70d0)
+    Index 1: (ID: 6, name: multiply_6, address: 0x55c73a3f70d0)
+newSymbol->name: x
+newSymbol->name: y
+PARSER: Recognized variable declaration: product
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+PARSER: Checking if variable has already been declared
+Name with suffix: product
+newSymbol->name: product
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+PARSER: Recognized variable declaration: square
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+PARSER: Checking if variable has already been declared
+Name with suffix: square
+newSymbol->name: square
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+PARSER: Recognized variable declaration: tempResult
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+PARSER: Checking if variable has already been declared
+Name with suffix: tempResult
+newSymbol->name: tempResult
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: tempResult, Type: VarType_Int[0], FullName: multiply_6.tempResult_var, Address: 0x55c73a3f7ac0
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+PARSER: Recognized function-scoped variable declaration list
+PARSER: Recognized function-scoped variable declaration list
+PARSER: Recognized function-scoped variable declaration list
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized multiplication expression
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized multiplication expression
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized addition expression
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized greater-than expression
+DEBUG: Invalid NodeType
+PARSER: Recognized identifier
+PARSER: Recognized float number
+PARSER: Recognized division expression
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized 'if' statement
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized function declaration: multiply
+newSymbol->name: factorial
+Pushed SubTable at index 1: (ID: 7, name: factorial_7, address: 0x55c73a3f8bf0)
+    Index 1: (ID: 7, name: factorial_7, address: 0x55c73a3f8bf0)
+newSymbol->name: n
+PARSER: Recognized variable declaration: result
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: tempResult, Type: VarType_Int[0], FullName: multiply_6.tempResult_var, Address: 0x55c73a3f7ac0
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: factorial, Type: VarType_Int[0], FullName: main_0.factorial_func, Address: 0x55c73a3f8b50
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+SubTable (ID: 7, Name: factorial_7):
+└── (Pointer: 0x55c73a3f8bf0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: n, Type: VarType_Int[0], FullName: factorial_7.n_var, Address: 0x55c73a3f9020
+PARSER: Checking if variable has already been declared
+Name with suffix: result
+newSymbol->name: result
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: tempResult, Type: VarType_Int[0], FullName: multiply_6.tempResult_var, Address: 0x55c73a3f7ac0
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: factorial, Type: VarType_Int[0], FullName: main_0.factorial_func, Address: 0x55c73a3f8b50
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+SubTable (ID: 7, Name: factorial_7):
+└── (Pointer: 0x55c73a3f8bf0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: n, Type: VarType_Int[0], FullName: factorial_7.n_var, Address: 0x55c73a3f9020
+    Name: result, Type: VarType_Int[0], FullName: factorial_7.result_var, Address: 0x55c73a3f91c0
+PARSER: Recognized function-scoped variable declaration list
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized less-than-or-equal expression
+DEBUG: Invalid NodeType
+PARSER: Recognized int number
+PARSER: Recognized int number
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized subtraction expression
+PARSER: Recognized multiplication expression
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized 'if-else' statement
+PARSER: Recognized statement list
+PARSER: Recognized function declaration: factorial
+newSymbol->name: isPrime
+Pushed SubTable at index 1: (ID: 8, name: isPrime_8, address: 0x55c73a3f9e80)
+    Index 1: (ID: 8, name: isPrime_8, address: 0x55c73a3f9e80)
+newSymbol->name: n
+PARSER: Recognized variable declaration: i
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: tempResult, Type: VarType_Int[0], FullName: multiply_6.tempResult_var, Address: 0x55c73a3f7ac0
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: factorial, Type: VarType_Int[0], FullName: main_0.factorial_func, Address: 0x55c73a3f8b50
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: isPrime, Type: VarType_Int[0], FullName: main_0.isPrime_func, Address: 0x55c73a3f9de0
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 8, Name: isPrime_8):
+└── (Pointer: 0x55c73a3f9e80, Parent Pointer: 0x55c73a3eb7d0):
+    Name: n, Type: VarType_Int[0], FullName: isPrime_8.n_var, Address: 0x55c73a3fa2b0
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+SubTable (ID: 7, Name: factorial_7):
+└── (Pointer: 0x55c73a3f8bf0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: n, Type: VarType_Int[0], FullName: factorial_7.n_var, Address: 0x55c73a3f9020
+    Name: result, Type: VarType_Int[0], FullName: factorial_7.result_var, Address: 0x55c73a3f91c0
+PARSER: Checking if variable has already been declared
+Name with suffix: i
+newSymbol->name: i
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: tempResult, Type: VarType_Int[0], FullName: multiply_6.tempResult_var, Address: 0x55c73a3f7ac0
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: factorial, Type: VarType_Int[0], FullName: main_0.factorial_func, Address: 0x55c73a3f8b50
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: isPrime, Type: VarType_Int[0], FullName: main_0.isPrime_func, Address: 0x55c73a3f9de0
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 8, Name: isPrime_8):
+└── (Pointer: 0x55c73a3f9e80, Parent Pointer: 0x55c73a3eb7d0):
+    Name: i, Type: VarType_Int[0], FullName: isPrime_8.i_var, Address: 0x55c73a3fa450
+    Name: n, Type: VarType_Int[0], FullName: isPrime_8.n_var, Address: 0x55c73a3fa2b0
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+SubTable (ID: 7, Name: factorial_7):
+└── (Pointer: 0x55c73a3f8bf0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: n, Type: VarType_Int[0], FullName: factorial_7.n_var, Address: 0x55c73a3f9020
+    Name: result, Type: VarType_Int[0], FullName: factorial_7.result_var, Address: 0x55c73a3f91c0
+PARSER: Recognized function-scoped variable declaration list
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized less-than-or-equal expression
+DEBUG: Invalid NodeType
+PARSER: Recognized int number
+PARSER: Recognized statement list
+PARSER: Recognized 'if' statement
+PARSER: Recognized int number
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized less-than expression
+DEBUG: Invalid NodeType
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized modulus expression
+PARSER: Recognized int number
+PARSER: Recognized equality expression
+DEBUG: Invalid NodeType
+PARSER: Recognized character
+PARSER: Recognized int number
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized 'if' statement
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized addition expression
+PARSER: Recognized assignment statement
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized 'while' statement
+PARSER: Recognized character
+PARSER: Recognized int number
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized function declaration: isPrime
+PARSER: Recognized variable declaration: localInt
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: tempResult, Type: VarType_Int[0], FullName: multiply_6.tempResult_var, Address: 0x55c73a3f7ac0
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: factorial, Type: VarType_Int[0], FullName: main_0.factorial_func, Address: 0x55c73a3f8b50
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: isPrime, Type: VarType_Int[0], FullName: main_0.isPrime_func, Address: 0x55c73a3f9de0
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 8, Name: isPrime_8):
+└── (Pointer: 0x55c73a3f9e80, Parent Pointer: 0x55c73a3eb7d0):
+    Name: i, Type: VarType_Int[0], FullName: isPrime_8.i_var, Address: 0x55c73a3fa450
+    Name: n, Type: VarType_Int[0], FullName: isPrime_8.n_var, Address: 0x55c73a3fa2b0
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+SubTable (ID: 7, Name: factorial_7):
+└── (Pointer: 0x55c73a3f8bf0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: n, Type: VarType_Int[0], FullName: factorial_7.n_var, Address: 0x55c73a3f9020
+    Name: result, Type: VarType_Int[0], FullName: factorial_7.result_var, Address: 0x55c73a3f91c0
+PARSER: Checking if variable has already been declared
+Name with suffix: localInt
+    Comparing "localInt" and "printInt"    Comparing "localInt" and "printInt"newSymbol->name: localInt
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: tempResult, Type: VarType_Int[0], FullName: multiply_6.tempResult_var, Address: 0x55c73a3f7ac0
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: factorial, Type: VarType_Int[0], FullName: main_0.factorial_func, Address: 0x55c73a3f8b50
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: localInt, Type: VarType_Int[0], FullName: main_0.localInt_var, Address: 0x55c73a3fb550
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: isPrime, Type: VarType_Int[0], FullName: main_0.isPrime_func, Address: 0x55c73a3f9de0
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 8, Name: isPrime_8):
+└── (Pointer: 0x55c73a3f9e80, Parent Pointer: 0x55c73a3eb7d0):
+    Name: i, Type: VarType_Int[0], FullName: isPrime_8.i_var, Address: 0x55c73a3fa450
+    Name: n, Type: VarType_Int[0], FullName: isPrime_8.n_var, Address: 0x55c73a3fa2b0
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+SubTable (ID: 7, Name: factorial_7):
+└── (Pointer: 0x55c73a3f8bf0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: n, Type: VarType_Int[0], FullName: factorial_7.n_var, Address: 0x55c73a3f9020
+    Name: result, Type: VarType_Int[0], FullName: factorial_7.result_var, Address: 0x55c73a3f91c0
+PARSER: Recognized variable declaration: localFloat
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: tempResult, Type: VarType_Int[0], FullName: multiply_6.tempResult_var, Address: 0x55c73a3f7ac0
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: factorial, Type: VarType_Int[0], FullName: main_0.factorial_func, Address: 0x55c73a3f8b50
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: localInt, Type: VarType_Int[0], FullName: main_0.localInt_var, Address: 0x55c73a3fb550
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: isPrime, Type: VarType_Int[0], FullName: main_0.isPrime_func, Address: 0x55c73a3f9de0
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 8, Name: isPrime_8):
+└── (Pointer: 0x55c73a3f9e80, Parent Pointer: 0x55c73a3eb7d0):
+    Name: i, Type: VarType_Int[0], FullName: isPrime_8.i_var, Address: 0x55c73a3fa450
+    Name: n, Type: VarType_Int[0], FullName: isPrime_8.n_var, Address: 0x55c73a3fa2b0
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+SubTable (ID: 7, Name: factorial_7):
+└── (Pointer: 0x55c73a3f8bf0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: n, Type: VarType_Int[0], FullName: factorial_7.n_var, Address: 0x55c73a3f9020
+    Name: result, Type: VarType_Int[0], FullName: factorial_7.result_var, Address: 0x55c73a3f91c0
+PARSER: Checking if variable has already been declared
+Name with suffix: localFloat
+    Comparing "localFloat" and "globalFloat"    Comparing "localFloat" and "globalFloat"newSymbol->name: localFloat
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: tempResult, Type: VarType_Int[0], FullName: multiply_6.tempResult_var, Address: 0x55c73a3f7ac0
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: factorial, Type: VarType_Int[0], FullName: main_0.factorial_func, Address: 0x55c73a3f8b50
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: localFloat, Type: VarType_Float, FullName: main_0.localFloat_var, Address: 0x55c73a3fb6b0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: localInt, Type: VarType_Int[0], FullName: main_0.localInt_var, Address: 0x55c73a3fb550
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: isPrime, Type: VarType_Int[0], FullName: main_0.isPrime_func, Address: 0x55c73a3f9de0
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 8, Name: isPrime_8):
+└── (Pointer: 0x55c73a3f9e80, Parent Pointer: 0x55c73a3eb7d0):
+    Name: i, Type: VarType_Int[0], FullName: isPrime_8.i_var, Address: 0x55c73a3fa450
+    Name: n, Type: VarType_Int[0], FullName: isPrime_8.n_var, Address: 0x55c73a3fa2b0
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+SubTable (ID: 7, Name: factorial_7):
+└── (Pointer: 0x55c73a3f8bf0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: n, Type: VarType_Int[0], FullName: factorial_7.n_var, Address: 0x55c73a3f9020
+    Name: result, Type: VarType_Int[0], FullName: factorial_7.result_var, Address: 0x55c73a3f91c0
+PARSER: Recognized variable declaration: i
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: tempResult, Type: VarType_Int[0], FullName: multiply_6.tempResult_var, Address: 0x55c73a3f7ac0
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: factorial, Type: VarType_Int[0], FullName: main_0.factorial_func, Address: 0x55c73a3f8b50
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: localFloat, Type: VarType_Float, FullName: main_0.localFloat_var, Address: 0x55c73a3fb6b0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: localInt, Type: VarType_Int[0], FullName: main_0.localInt_var, Address: 0x55c73a3fb550
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: isPrime, Type: VarType_Int[0], FullName: main_0.isPrime_func, Address: 0x55c73a3f9de0
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 8, Name: isPrime_8):
+└── (Pointer: 0x55c73a3f9e80, Parent Pointer: 0x55c73a3eb7d0):
+    Name: i, Type: VarType_Int[0], FullName: isPrime_8.i_var, Address: 0x55c73a3fa450
+    Name: n, Type: VarType_Int[0], FullName: isPrime_8.n_var, Address: 0x55c73a3fa2b0
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+SubTable (ID: 7, Name: factorial_7):
+└── (Pointer: 0x55c73a3f8bf0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: n, Type: VarType_Int[0], FullName: factorial_7.n_var, Address: 0x55c73a3f9020
+    Name: result, Type: VarType_Int[0], FullName: factorial_7.result_var, Address: 0x55c73a3f91c0
+PARSER: Checking if variable has already been declared
+Name with suffix: i
+    Comparing "i" and "multiply"    Comparing "i" and "multiply"newSymbol->name: i
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: tempResult, Type: VarType_Int[0], FullName: multiply_6.tempResult_var, Address: 0x55c73a3f7ac0
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: i, Type: VarType_Int[0], FullName: main_0.i_var, Address: 0x55c73a3fb810
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: factorial, Type: VarType_Int[0], FullName: main_0.factorial_func, Address: 0x55c73a3f8b50
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: localFloat, Type: VarType_Float, FullName: main_0.localFloat_var, Address: 0x55c73a3fb6b0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: localInt, Type: VarType_Int[0], FullName: main_0.localInt_var, Address: 0x55c73a3fb550
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: isPrime, Type: VarType_Int[0], FullName: main_0.isPrime_func, Address: 0x55c73a3f9de0
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 8, Name: isPrime_8):
+└── (Pointer: 0x55c73a3f9e80, Parent Pointer: 0x55c73a3eb7d0):
+    Name: i, Type: VarType_Int[0], FullName: isPrime_8.i_var, Address: 0x55c73a3fa450
+    Name: n, Type: VarType_Int[0], FullName: isPrime_8.n_var, Address: 0x55c73a3fa2b0
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+SubTable (ID: 7, Name: factorial_7):
+└── (Pointer: 0x55c73a3f8bf0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: n, Type: VarType_Int[0], FullName: factorial_7.n_var, Address: 0x55c73a3f9020
+    Name: result, Type: VarType_Int[0], FullName: factorial_7.result_var, Address: 0x55c73a3f91c0
+PARSER: Recognized variable declaration: result
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: tempResult, Type: VarType_Int[0], FullName: multiply_6.tempResult_var, Address: 0x55c73a3f7ac0
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: i, Type: VarType_Int[0], FullName: main_0.i_var, Address: 0x55c73a3fb810
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: factorial, Type: VarType_Int[0], FullName: main_0.factorial_func, Address: 0x55c73a3f8b50
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: localFloat, Type: VarType_Float, FullName: main_0.localFloat_var, Address: 0x55c73a3fb6b0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: localInt, Type: VarType_Int[0], FullName: main_0.localInt_var, Address: 0x55c73a3fb550
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: isPrime, Type: VarType_Int[0], FullName: main_0.isPrime_func, Address: 0x55c73a3f9de0
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 8, Name: isPrime_8):
+└── (Pointer: 0x55c73a3f9e80, Parent Pointer: 0x55c73a3eb7d0):
+    Name: i, Type: VarType_Int[0], FullName: isPrime_8.i_var, Address: 0x55c73a3fa450
+    Name: n, Type: VarType_Int[0], FullName: isPrime_8.n_var, Address: 0x55c73a3fa2b0
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+SubTable (ID: 7, Name: factorial_7):
+└── (Pointer: 0x55c73a3f8bf0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: n, Type: VarType_Int[0], FullName: factorial_7.n_var, Address: 0x55c73a3f9020
+    Name: result, Type: VarType_Int[0], FullName: factorial_7.result_var, Address: 0x55c73a3f91c0
+PARSER: Checking if variable has already been declared
+Name with suffix: result
+    Comparing "result" and "displayResult"    Comparing "result" and "displayResult"newSymbol->name: result
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: tempResult, Type: VarType_Int[0], FullName: multiply_6.tempResult_var, Address: 0x55c73a3f7ac0
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: i, Type: VarType_Int[0], FullName: main_0.i_var, Address: 0x55c73a3fb810
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: factorial, Type: VarType_Int[0], FullName: main_0.factorial_func, Address: 0x55c73a3f8b50
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: result, Type: VarType_Int[0], FullName: main_0.result_var, Address: 0x55c73a3fb970
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: localFloat, Type: VarType_Float, FullName: main_0.localFloat_var, Address: 0x55c73a3fb6b0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: localInt, Type: VarType_Int[0], FullName: main_0.localInt_var, Address: 0x55c73a3fb550
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: isPrime, Type: VarType_Int[0], FullName: main_0.isPrime_func, Address: 0x55c73a3f9de0
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 8, Name: isPrime_8):
+└── (Pointer: 0x55c73a3f9e80, Parent Pointer: 0x55c73a3eb7d0):
+    Name: i, Type: VarType_Int[0], FullName: isPrime_8.i_var, Address: 0x55c73a3fa450
+    Name: n, Type: VarType_Int[0], FullName: isPrime_8.n_var, Address: 0x55c73a3fa2b0
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+SubTable (ID: 7, Name: factorial_7):
+└── (Pointer: 0x55c73a3f8bf0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: n, Type: VarType_Int[0], FullName: factorial_7.n_var, Address: 0x55c73a3f9020
+    Name: result, Type: VarType_Int[0], FullName: factorial_7.result_var, Address: 0x55c73a3f91c0
+PARSER: Recognized variable declaration: temp
+PARSER: Printing symbol table
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: tempResult, Type: VarType_Int[0], FullName: multiply_6.tempResult_var, Address: 0x55c73a3f7ac0
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: i, Type: VarType_Int[0], FullName: main_0.i_var, Address: 0x55c73a3fb810
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: factorial, Type: VarType_Int[0], FullName: main_0.factorial_func, Address: 0x55c73a3f8b50
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: result, Type: VarType_Int[0], FullName: main_0.result_var, Address: 0x55c73a3fb970
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: localFloat, Type: VarType_Float, FullName: main_0.localFloat_var, Address: 0x55c73a3fb6b0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: localInt, Type: VarType_Int[0], FullName: main_0.localInt_var, Address: 0x55c73a3fb550
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: isPrime, Type: VarType_Int[0], FullName: main_0.isPrime_func, Address: 0x55c73a3f9de0
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 8, Name: isPrime_8):
+└── (Pointer: 0x55c73a3f9e80, Parent Pointer: 0x55c73a3eb7d0):
+    Name: i, Type: VarType_Int[0], FullName: isPrime_8.i_var, Address: 0x55c73a3fa450
+    Name: n, Type: VarType_Int[0], FullName: isPrime_8.n_var, Address: 0x55c73a3fa2b0
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+SubTable (ID: 7, Name: factorial_7):
+└── (Pointer: 0x55c73a3f8bf0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: n, Type: VarType_Int[0], FullName: factorial_7.n_var, Address: 0x55c73a3f9020
+    Name: result, Type: VarType_Int[0], FullName: factorial_7.result_var, Address: 0x55c73a3f91c0
+PARSER: Checking if variable has already been declared
+Name with suffix: temp
+    Comparing "temp" and "printFloat"    Comparing "temp" and "printFloat"newSymbol->name: temp
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: tempResult, Type: VarType_Int[0], FullName: multiply_6.tempResult_var, Address: 0x55c73a3f7ac0
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: i, Type: VarType_Int[0], FullName: main_0.i_var, Address: 0x55c73a3fb810
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: factorial, Type: VarType_Int[0], FullName: main_0.factorial_func, Address: 0x55c73a3f8b50
+    Name: temp, Type: VarType_Int[0], FullName: main_0.temp_var, Address: 0x55c73a3fbad0
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: result, Type: VarType_Int[0], FullName: main_0.result_var, Address: 0x55c73a3fb970
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: localFloat, Type: VarType_Float, FullName: main_0.localFloat_var, Address: 0x55c73a3fb6b0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: localInt, Type: VarType_Int[0], FullName: main_0.localInt_var, Address: 0x55c73a3fb550
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: isPrime, Type: VarType_Int[0], FullName: main_0.isPrime_func, Address: 0x55c73a3f9de0
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 8, Name: isPrime_8):
+└── (Pointer: 0x55c73a3f9e80, Parent Pointer: 0x55c73a3eb7d0):
+    Name: i, Type: VarType_Int[0], FullName: isPrime_8.i_var, Address: 0x55c73a3fa450
+    Name: n, Type: VarType_Int[0], FullName: isPrime_8.n_var, Address: 0x55c73a3fa2b0
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+SubTable (ID: 7, Name: factorial_7):
+└── (Pointer: 0x55c73a3f8bf0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: n, Type: VarType_Int[0], FullName: factorial_7.n_var, Address: 0x55c73a3f9020
+    Name: result, Type: VarType_Int[0], FullName: factorial_7.result_var, Address: 0x55c73a3f91c0
+PARSER: Recognized declaration list (variable entry)
+PARSER: Recognized declaration list (variable entry)
+PARSER: Recognized declaration list (variable entry)
+PARSER: Recognized declaration list (variable entry)
+PARSER: Recognized declaration list (variable entry)
+PARSER: Recognized declaration list (function entry)
+PARSER: Recognized declaration list (function entry)
+PARSER: Recognized declaration list (function entry)
+PARSER: Recognized declaration list (function entry)
+PARSER: Recognized declaration list (function entry)
+PARSER: Recognized declaration list (function entry)
+PARSER: Recognized declaration list (function entry)
+PARSER: Recognized declaration list (function entry)
+PARSER: Recognized declaration list (variable entry)
+PARSER: Recognized declaration list (variable entry)
+PARSER: Recognized declaration list (variable entry)
+PARSER: Recognized declaration list (variable entry)
+PARSER: Recognized int number
+PARSER: Recognized assignment statement
+PARSER: Recognized float number
+PARSER: Recognized assignment statement
+PARSER: Recognized int number
+PARSER: Recognized assignment statement
+PARSER: Recognized character
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized multiplication expression
+PARSER: Recognized int number
+PARSER: Recognized addition expression
+PARSER: Recognized int number
+PARSER: Recognized int number
+PARSER: Recognized subtraction expression
+PARSER: Recognized division expression
+PARSER: Recognized identifier
+PARSER: Recognized addition expression
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized greater-than expression
+DEBUG: Invalid NodeType
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized multiplication expression
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized subtraction expression
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized addition expression
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized 'if-else' statement
+PARSER: Recognized int number
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized less-than expression
+DEBUG: Invalid NodeType
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized addition expression
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized greater-than expression
+DEBUG: Invalid NodeType
+PARSER: Recognized identifier
+PARSER: Recognized assignment statement
+PARSER: Recognized 'break' statement
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized addition expression
+PARSER: Recognized assignment statement
+PARSER: Recognized statement list
+PARSER: Recognized 'if-else' statement
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized addition expression
+PARSER: Recognized assignment statement
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized 'while' statement
+PARSER: Recognized int number
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized statement list
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized subtraction expression
+PARSER: Recognized statement list
+PARSER: Recognized 'if-else' statement
+PARSER: Recognized int number
+PARSER: Recognized int number
+PARSER: Recognized multiplication expression
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized addition expression
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized identifier
+PARSER: Recognized int number
+PARSER: Recognized assignment statement
+PARSER: Recognized identifier
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+PARSER: Recognized statement list
+The PARSER has started
+Parsing successful!
+Program
+├── DeclList
+|   ├── VarDecl: int globalInt
+|   └── DeclList
+|       ├── VarDecl: char globalChar
+|       └── DeclList
+|           ├── VarDecl: float globalFloat
+|           └── DeclList
+|               ├── VarDecl: int boolFlag
+|               └── DeclList
+|                   ├── FuncDecl: VarType_Void printInt (SubTable: 0x55c73a3f22a0)
+|                   |   ├── ParamList
+|                   |   |   └── Param: VarType_Int value
+|                   |   └── StmtList
+|                   |       └── WriteStmt
+|                   |           └── SimpleID: value
+|                   └── DeclList
+|                       ├── FuncDecl: VarType_Void printChar (SubTable: 0x55c73a3f2990)
+|                       |   ├── ParamList
+|                       |   |   └── Param: VarType_Char value
+|                       |   └── StmtList
+|                       |       └── WriteStmt
+|                       |           └── SimpleID: value
+|                       └── DeclList
+|                           ├── FuncDecl: VarType_Void printFloat (SubTable: 0x55c73a3f3080)
+|                           |   ├── ParamList
+|                           |   |   └── Param: VarType_Float value
+|                           |   └── StmtList
+|                           |       └── WriteStmt
+|                           |           └── SimpleID: value
+|                           └── DeclList
+|                               ├── FuncDecl: VarType_Int computeSum (SubTable: 0x55c73a3f3770)
+|                               |   ├── ParamList
+|                               |   |   ├── Param: VarType_Int a
+|                               |   |   └── ParamList
+|                               |   |       └── Param: VarType_Int b
+|                               |   ├── VarDeclList
+|                               |   |   ├── VarDecl: int sum
+|                               |   |   └── VarDeclList
+|                               |   |       ├── VarDecl: int doubleSum
+|                               |   |       └── VarDeclList
+|                               |   |           └── VarDecl: int temp
+|                               |   └── StmtList
+|                               |       ├── AssignStmt: sum =
+|                               |       |   └── Expr: +
+|                               |       |       ├── SimpleID: a
+|                               |       |       └── SimpleID: b
+|                               |       └── StmtList
+|                               |           ├── AssignStmt: temp =
+|                               |           |   └── Expr: +
+|                               |           |       ├── SimpleID: sum
+|                               |           |       └── IntExpr: 5
+|                               |           └── StmtList
+|                               |               ├── AssignStmt: doubleSum =
+|                               |               |   └── Expr: *
+|                               |               |       ├── SimpleID: temp
+|                               |               |       └── IntExpr: 2
+|                               |               └── StmtList
+|                               |                   ├── AssignStmt: globalFloat =
+|                               |                   |   └── Expr: +
+|                               |                   |       ├── SimpleID: globalFloat
+|                               |                   |       └── SimpleID: sum
+|                               |                   └── StmtList
+|                               |                       ├── IfStmt
+|                               |                       |   ├── RelOp: >
+|                               |                       |   |   ├── SimpleID: doubleSum
+|                               |                       |   |   └── IntExpr: 50
+|                               |                       |   ├── StmtList
+|                               |                       |   |   ├── AssignStmt: globalInt =
+|                               |                       |   |   |   └── Expr: +
+|                               |                       |   |   |       ├── SimpleID: globalInt
+|                               |                       |   |   |       └── IntExpr: 10
+|                               |                       |   |   └── StmtList
+|                               |                       |   |       └── FuncCall: printChar()
+|                               |                       |   |           └── ArgList
+|                               |                       |   |               └── Arg
+|                               |                       |   |                   └── CharExpr: H
+|                               |                       |   └── StmtList
+|                               |                       |       ├── AssignStmt: globalInt =
+|                               |                       |       |   └── Expr: -
+|                               |                       |       |       ├── SimpleID: globalInt
+|                               |                       |       |       └── IntExpr: 5
+|                               |                       |       └── StmtList
+|                               |                       |           └── FuncCall: printChar()
+|                               |                       |               └── ArgList
+|                               |                       |                   └── Arg
+|                               |                       |                       └── CharExpr: L
+|                               |                       └── StmtList
+|                               |                           ├── FuncCall: printInt()
+|                               |                           |   └── ArgList
+|                               |                           |       └── Arg
+|                               |                           |           └── SimpleID: doubleSum
+|                               |                           └── StmtList
+|                               |                               └── ReturnStmt
+|                               |                                   └── SimpleID: doubleSum
+|                               └── DeclList
+|                                   ├── FuncDecl: VarType_Void displayResult (SubTable: 0x55c73a3f58a0)
+|                                   |   ├── ParamList
+|                                   |   |   └── Param: VarType_Int result
+|                                   |   ├── VarDeclList
+|                                   |   |   └── VarDecl: int localCopy
+|                                   |   └── StmtList
+|                                   |       ├── AssignStmt: localCopy =
+|                                   |       |   └── SimpleID: result
+|                                   |       └── StmtList
+|                                   |           ├── AssignStmt: localCopy =
+|                                   |           |   └── Expr: +
+|                                   |           |       ├── SimpleID: localCopy
+|                                   |           |       └── IntExpr: 1
+|                                   |           └── StmtList
+|                                   |               ├── IfStmt
+|                                   |               |   ├── RelOp: ==
+|                                   |               |   |   ├── Expr: %
+|                                   |               |   |   |   ├── SimpleID: localCopy
+|                                   |               |   |   |   └── IntExpr: 2
+|                                   |               |   |   └── IntExpr: 0
+|                                   |               |   ├── StmtList
+|                                   |               |   |   └── AssignStmt: globalChar =
+|                                   |               |   |       └── CharExpr: E
+|                                   |               |   └── StmtList
+|                                   |               |       └── AssignStmt: globalChar =
+|                                   |               |           └── CharExpr: O
+|                                   |               └── StmtList
+|                                   |                   ├── FuncCall: printChar()
+|                                   |                   |   └── ArgList
+|                                   |                   |       └── Arg
+|                                   |                   |           └── SimpleID: globalChar
+|                                   |                   └── StmtList
+|                                   |                       ├── AssignStmt: globalInt =
+|                                   |                       |   └── SimpleID: localCopy
+|                                   |                       └── StmtList
+|                                   |                           ├── AssignStmt: localCopy =
+|                                   |                           |   └── Expr: *
+|                                   |                           |       ├── SimpleID: localCopy
+|                                   |                           |       └── IntExpr: 3
+|                                   |                           └── StmtList
+|                                   |                               ├── FuncCall: printInt()
+|                                   |                               |   └── ArgList
+|                                   |                               |       └── Arg
+|                                   |                               |           └── SimpleID: localCopy
+|                                   |                               └── StmtList
+|                                   |                                   └── WriteStmt
+|                                   |                                       └── CharExpr: -
+|                                   └── DeclList
+|                                       ├── FuncDecl: VarType_Int multiply (SubTable: 0x55c73a3f70d0)
+|                                       |   ├── ParamList
+|                                       |   |   ├── Param: VarType_Int x
+|                                       |   |   └── ParamList
+|                                       |   |       └── Param: VarType_Int y
+|                                       |   ├── VarDeclList
+|                                       |   |   ├── VarDecl: int product
+|                                       |   |   └── VarDeclList
+|                                       |   |       ├── VarDecl: int square
+|                                       |   |       └── VarDeclList
+|                                       |   |           └── VarDecl: int tempResult
+|                                       |   └── StmtList
+|                                       |       ├── AssignStmt: product =
+|                                       |       |   └── Expr: *
+|                                       |       |       ├── SimpleID: x
+|                                       |       |       └── SimpleID: y
+|                                       |       └── StmtList
+|                                       |           ├── AssignStmt: square =
+|                                       |           |   └── Expr: *
+|                                       |           |       ├── SimpleID: x
+|                                       |           |       └── SimpleID: x
+|                                       |           └── StmtList
+|                                       |               ├── AssignStmt: tempResult =
+|                                       |               |   └── Expr: +
+|                                       |               |       ├── SimpleID: product
+|                                       |               |       └── SimpleID: square
+|                                       |               └── StmtList
+|                                       |                   ├── IfStmt
+|                                       |                   |   ├── RelOp: >
+|                                       |                   |   |   ├── SimpleID: tempResult
+|                                       |                   |   |   └── IntExpr: 50
+|                                       |                   |   └── StmtList
+|                                       |                   |       ├── AssignStmt: globalFloat =
+|                                       |                   |       |   └── Expr: /
+|                                       |                   |       |       ├── SimpleID: globalFloat
+|                                       |                   |       |       └── FloatExpr: 2.000000
+|                                       |                   |       └── StmtList
+|                                       |                   |           └── FuncCall: printFloat()
+|                                       |                   |               └── ArgList
+|                                       |                   |                   └── Arg
+|                                       |                   |                       └── SimpleID: globalFloat
+|                                       |                   └── StmtList
+|                                       |                       ├── FuncCall: printInt()
+|                                       |                       |   └── ArgList
+|                                       |                       |       └── Arg
+|                                       |                       |           └── SimpleID: tempResult
+|                                       |                       └── StmtList
+|                                       |                           └── ReturnStmt
+|                                       |                               └── SimpleID: tempResult
+|                                       └── DeclList
+|                                           ├── FuncDecl: VarType_Int factorial (SubTable: 0x55c73a3f8bf0)
+|                                           |   ├── ParamList
+|                                           |   |   └── Param: VarType_Int n
+|                                           |   ├── VarDeclList
+|                                           |   |   └── VarDecl: int result
+|                                           |   └── StmtList
+|                                           |       └── IfStmt
+|                                           |           ├── RelOp: <=
+|                                           |           |   ├── SimpleID: n
+|                                           |           |   └── IntExpr: 1
+|                                           |           ├── StmtList
+|                                           |           |   ├── FuncCall: printInt()
+|                                           |           |   |   └── ArgList
+|                                           |           |   |       └── Arg
+|                                           |           |   |           └── IntExpr: 1
+|                                           |           |   └── StmtList
+|                                           |           |       └── ReturnStmt
+|                                           |           |           └── IntExpr: 1
+|                                           |           └── StmtList
+|                                           |               ├── AssignStmt: result =
+|                                           |               |   └── Expr: *
+|                                           |               |       ├── SimpleID: n
+|                                           |               |       └── FuncCall: factorial()
+|                                           |               |           └── ArgList
+|                                           |               |               └── Arg
+|                                           |               |                   └── Expr: -
+|                                           |               |                       ├── SimpleID: n
+|                                           |               |                       └── IntExpr: 1
+|                                           |               └── StmtList
+|                                           |                   ├── FuncCall: printInt()
+|                                           |                   |   └── ArgList
+|                                           |                   |       └── Arg
+|                                           |                   |           └── SimpleID: result
+|                                           |                   └── StmtList
+|                                           |                       └── ReturnStmt
+|                                           |                           └── SimpleID: result
+|                                           └── DeclList
+|                                               ├── FuncDecl: VarType_Int isPrime (SubTable: 0x55c73a3f9e80)
+|                                               |   ├── ParamList
+|                                               |   |   └── Param: VarType_Int n
+|                                               |   ├── VarDeclList
+|                                               |   |   └── VarDecl: int i
+|                                               |   └── StmtList
+|                                               |       ├── IfStmt
+|                                               |       |   ├── RelOp: <=
+|                                               |       |   |   ├── SimpleID: n
+|                                               |       |   |   └── IntExpr: 1
+|                                               |       |   └── StmtList
+|                                               |       |       └── ReturnStmt
+|                                               |       |           └── IntExpr: 0
+|                                               |       └── StmtList
+|                                               |           ├── AssignStmt: i =
+|                                               |           |   └── IntExpr: 2
+|                                               |           └── StmtList
+|                                               |               ├── WhileStmt
+|                                               |               |   ├── RelOp: <
+|                                               |               |   |   ├── SimpleID: i
+|                                               |               |   |   └── SimpleID: n
+|                                               |               |   └── StmtList
+|                                               |               |       ├── IfStmt
+|                                               |               |       |   ├── RelOp: ==
+|                                               |               |       |   |   ├── Expr: %
+|                                               |               |       |   |   |   ├── SimpleID: n
+|                                               |               |       |   |   |   └── SimpleID: i
+|                                               |               |       |   |   └── IntExpr: 0
+|                                               |               |       |   └── StmtList
+|                                               |               |       |       ├── FuncCall: printChar()
+|                                               |               |       |       |   └── ArgList
+|                                               |               |       |       |       └── Arg
+|                                               |               |       |       |           └── CharExpr: N
+|                                               |               |       |       └── StmtList
+|                                               |               |       |           └── ReturnStmt
+|                                               |               |       |               └── IntExpr: 0
+|                                               |               |       └── StmtList
+|                                               |               |           └── AssignStmt: i =
+|                                               |               |               └── Expr: +
+|                                               |               |                   ├── SimpleID: i
+|                                               |               |                   └── IntExpr: 1
+|                                               |               └── StmtList
+|                                               |                   ├── FuncCall: printChar()
+|                                               |                   |   └── ArgList
+|                                               |                   |       └── Arg
+|                                               |                   |           └── CharExpr: P
+|                                               |                   └── StmtList
+|                                               |                       └── ReturnStmt
+|                                               |                           └── IntExpr: 1
+|                                               └── DeclList
+|                                                   ├── VarDecl: int localInt
+|                                                   └── DeclList
+|                                                       ├── VarDecl: float localFloat
+|                                                       └── DeclList
+|                                                           ├── VarDecl: int i
+|                                                           └── DeclList
+|                                                               ├── VarDecl: int result
+|                                                               └── DeclList
+|                                                                   └── VarDecl: int temp
+└── StmtList
+    ├── AssignStmt: localInt =
+    |   └── IntExpr: 15
+    └── StmtList
+        ├── AssignStmt: localFloat =
+        |   └── FloatExpr: 3.700000
+        └── StmtList
+            ├── AssignStmt: globalInt =
+            |   └── IntExpr: 20
+            └── StmtList
+                ├── AssignStmt: globalChar =
+                |   └── CharExpr: C
+                └── StmtList
+                    ├── FuncCall: printInt()
+                    |   └── ArgList
+                    |       └── Arg
+                    |           └── SimpleID: globalInt
+                    └── StmtList
+                        ├── FuncCall: printChar()
+                        |   └── ArgList
+                        |       └── Arg
+                        |           └── SimpleID: globalChar
+                        └── StmtList
+                            ├── FuncCall: printFloat()
+                            |   └── ArgList
+                            |       └── Arg
+                            |           └── SimpleID: globalFloat
+                            └── StmtList
+                                ├── AssignStmt: result =
+                                |   └── Expr: +
+                                |       ├── Expr: /
+                                |       |   ├── Expr: +
+                                |       |   |   ├── Expr: *
+                                |       |   |   |   ├── SimpleID: localInt
+                                |       |   |   |   └── IntExpr: 2
+                                |       |   |   └── IntExpr: 3
+                                |       |   └── Expr: -
+                                |       |       ├── IntExpr: 5
+                                |       |       └── IntExpr: 2
+                                |       └── SimpleID: globalInt
+                                └── StmtList
+                                    ├── IfStmt
+                                    |   ├── RelOp: >
+                                    |   |   ├── SimpleID: result
+                                    |   |   └── IntExpr: 10
+                                    |   ├── StmtList
+                                    |   |   ├── AssignStmt: temp =
+                                    |   |   |   └── Expr: *
+                                    |   |   |       ├── SimpleID: result
+                                    |   |   |       └── IntExpr: 2
+                                    |   |   └── StmtList
+                                    |   |       └── FuncCall: displayResult()
+                                    |   |           └── ArgList
+                                    |   |               └── Arg
+                                    |   |                   └── SimpleID: temp
+                                    |   └── StmtList
+                                    |       ├── AssignStmt: temp =
+                                    |       |   └── Expr: -
+                                    |       |       ├── SimpleID: result
+                                    |       |       └── IntExpr: 1
+                                    |       └── StmtList
+                                    |           └── FuncCall: displayResult()
+                                    |               └── ArgList
+                                    |                   └── Arg
+                                    |                       └── Expr: +
+                                    |                           ├── SimpleID: temp
+                                    |                           └── IntExpr: 3
+                                    └── StmtList
+                                        ├── AssignStmt: i =
+                                        |   └── IntExpr: 0
+                                        └── StmtList
+                                            ├── WhileStmt
+                                            |   ├── RelOp: <
+                                            |   |   ├── SimpleID: i
+                                            |   |   └── IntExpr: 10
+                                            |   └── StmtList
+                                            |       ├── AssignStmt: result =
+                                            |       |   └── FuncCall: multiply()
+                                            |       |       └── ArgList
+                                            |       |           ├── Arg
+                                            |       |           |   └── SimpleID: i
+                                            |       |           └── ArgList
+                                            |       |               └── Arg
+                                            |       |                   └── Expr: +
+                                            |       |                       ├── SimpleID: i
+                                            |       |                       └── IntExpr: 1
+                                            |       └── StmtList
+                                            |           ├── IfStmt
+                                            |           |   ├── RelOp: >
+                                            |           |   |   ├── SimpleID: result
+                                            |           |   |   └── IntExpr: 20
+                                            |           |   ├── StmtList
+                                            |           |   |   ├── AssignStmt: globalInt =
+                                            |           |   |   |   └── SimpleID: result
+                                            |           |   |   └── StmtList
+                                            |           |   |       └── BreakStmt
+                                            |           |   └── StmtList
+                                            |           |       └── AssignStmt: globalInt =
+                                            |           |           └── Expr: +
+                                            |           |               ├── SimpleID: globalInt
+                                            |           |               └── IntExpr: 1
+                                            |           └── StmtList
+                                            |               ├── FuncCall: printInt()
+                                            |               |   └── ArgList
+                                            |               |       └── Arg
+                                            |               |           └── SimpleID: i
+                                            |               └── StmtList
+                                            |                   └── AssignStmt: i =
+                                            |                       └── Expr: +
+                                            |                           ├── SimpleID: i
+                                            |                           └── IntExpr: 1
+                                            └── StmtList
+                                                ├── AssignStmt: result =
+                                                |   └── FuncCall: factorial()
+                                                |       └── ArgList
+                                                |           └── Arg
+                                                |               └── IntExpr: 5
+                                                └── StmtList
+                                                    ├── FuncCall: printInt()
+                                                    |   └── ArgList
+                                                    |       └── Arg
+                                                    |           └── SimpleID: result
+                                                    └── StmtList
+                                                        ├── IfStmt
+                                                        |   ├── FuncCall: isPrime()
+                                                        |   |   └── ArgList
+                                                        |   |       └── Arg
+                                                        |   |           └── SimpleID: result
+                                                        |   ├── StmtList
+                                                        |   |   └── FuncCall: displayResult()
+                                                        |   |       └── ArgList
+                                                        |   |           └── Arg
+                                                        |   |               └── SimpleID: result
+                                                        |   └── StmtList
+                                                        |       └── FuncCall: displayResult()
+                                                        |           └── ArgList
+                                                        |               └── Arg
+                                                        |                   └── Expr: -
+                                                        |                       ├── SimpleID: result
+                                                        |                       └── IntExpr: 10
+                                                        └── StmtList
+                                                            ├── AssignStmt: temp =
+                                                            |   └── Expr: *
+                                                            |       ├── IntExpr: 5
+                                                            |       └── IntExpr: 4
+                                                            └── StmtList
+                                                                ├── AssignStmt: result =
+                                                                |   └── Expr: +
+                                                                |       ├── SimpleID: temp
+                                                                |       └── IntExpr: 10
+                                                                └── StmtList
+                                                                    ├── FuncCall: printInt()
+                                                                    |   └── ArgList
+                                                                    |       └── Arg
+                                                                    |           └── SimpleID: result
+                                                                    └── StmtList
+                                                                        ├── AssignStmt: result =
+                                                                        |   └── FuncCall: computeSum()
+                                                                        |       └── ArgList
+                                                                        |           ├── Arg
+                                                                        |           |   └── SimpleID: localInt
+                                                                        |           └── ArgList
+                                                                        |               └── Arg
+                                                                        |                   └── IntExpr: 20
+                                                                        └── StmtList
+                                                                            └── FuncCall: displayResult()
+                                                                                └── ArgList
+                                                                                    └── Arg
+                                                                                        └── SimpleID: result
+===Symbol Table (Addr: 0x55c73a3ea480):===
+SubTable (ID: 4, Name: computeSum_4):
+└── (Pointer: 0x55c73a3f3770, Parent Pointer: 0x55c73a3eb7d0):
+    Name: temp, Type: VarType_Int[0], FullName: computeSum_4.temp_var, Address: 0x55c73a3f4170
+    Name: sum, Type: VarType_Int[0], FullName: computeSum_4.sum_var, Address: 0x55c73a3f3ea0
+    Name: doubleSum, Type: VarType_Int[0], FullName: computeSum_4.doubleSum_var, Address: 0x55c73a3f4000
+    Name: a, Type: VarType_Int[0], FullName: computeSum_4.a_var, Address: 0x55c73a3f3ba0
+    Name: b, Type: VarType_Int[0], FullName: computeSum_4.b_var, Address: 0x55c73a3f3cc0
+SubTable (ID: 6, Name: multiply_6):
+└── (Pointer: 0x55c73a3f70d0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: tempResult, Type: VarType_Int[0], FullName: multiply_6.tempResult_var, Address: 0x55c73a3f7ac0
+    Name: square, Type: VarType_Int[0], FullName: multiply_6.square_var, Address: 0x55c73a3f7960
+    Name: x, Type: VarType_Int[0], FullName: multiply_6.x_var, Address: 0x55c73a3f7500
+    Name: y, Type: VarType_Int[0], FullName: multiply_6.y_var, Address: 0x55c73a3f7620
+    Name: product, Type: VarType_Int[0], FullName: multiply_6.product_var, Address: 0x55c73a3f7800
+SubTable (ID: 3, Name: printFloat_3):
+└── (Pointer: 0x55c73a3f3080, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Float, FullName: printFloat_3.value_var, Address: 0x55c73a3f34b0
+SubTable (ID: 5, Name: displayResult_5):
+└── (Pointer: 0x55c73a3f58a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: localCopy, Type: VarType_Int[0], FullName: displayResult_5.localCopy_var, Address: 0x55c73a3f5e80
+    Name: result, Type: VarType_Int[0], FullName: displayResult_5.result_var, Address: 0x55c73a3f5cd0
+SubTable (ID: 0, Name: main_0):
+└── (Pointer: 0x55c73a3eb7d0, Parent Pointer: (nil)):
+    Name: i, Type: VarType_Int[0], FullName: main_0.i_var, Address: 0x55c73a3fb810
+    Name: multiply, Type: VarType_Int[0], FullName: main_0.multiply_func, Address: 0x55c73a3f7030
+    Name: factorial, Type: VarType_Int[0], FullName: main_0.factorial_func, Address: 0x55c73a3f8b50
+    Name: temp, Type: VarType_Int[0], FullName: main_0.temp_var, Address: 0x55c73a3fbad0
+    Name: printFloat, Type: VarType_Void, FullName: main_0.printFloat_func, Address: 0x55c73a3f2fe0
+    Name: globalInt, Type: VarType_Int[0], FullName: main_0.globalInt_var, Address: 0x55c73a3f1ce0
+    Name: result, Type: VarType_Int[0], FullName: main_0.result_var, Address: 0x55c73a3fb970
+    Name: displayResult, Type: VarType_Void, FullName: main_0.displayResult_func, Address: 0x55c73a3f57f0
+    Name: localFloat, Type: VarType_Float, FullName: main_0.localFloat_var, Address: 0x55c73a3fb6b0
+    Name: globalFloat, Type: VarType_Float, FullName: main_0.globalFloat_var, Address: 0x55c73a3f1fa0
+    Name: printChar, Type: VarType_Void, FullName: main_0.printChar_func, Address: 0x55c73a3f28f0
+Unknown SymbolType.
+    Name: localInt, Type: VarType_Int[0], FullName: main_0.localInt_var, Address: 0x55c73a3fb550
+    Name: printInt, Type: VarType_Void, FullName: main_0.printInt_func, Address: 0x55c73a3f2200
+    Name: isPrime, Type: VarType_Int[0], FullName: main_0.isPrime_func, Address: 0x55c73a3f9de0
+    Name: computeSum, Type: VarType_Int[0], FullName: main_0.computeSum_func, Address: 0x55c73a3f36d0
+    Name: boolFlag, Type: VarType_Int[0], FullName: main_0.boolFlag_var, Address: 0x55c73a3f2100
+SubTable (ID: 8, Name: isPrime_8):
+└── (Pointer: 0x55c73a3f9e80, Parent Pointer: 0x55c73a3eb7d0):
+    Name: i, Type: VarType_Int[0], FullName: isPrime_8.i_var, Address: 0x55c73a3fa450
+    Name: n, Type: VarType_Int[0], FullName: isPrime_8.n_var, Address: 0x55c73a3fa2b0
+SubTable (ID: 1, Name: printInt_1):
+└── (Pointer: 0x55c73a3f22a0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: value, Type: VarType_Int[0], FullName: printInt_1.value_var, Address: 0x55c73a3f26d0
+SubTable (ID: 2, Name: printChar_2):
+└── (Pointer: 0x55c73a3f2990, Parent Pointer: 0x55c73a3eb7d0):
+Unknown SymbolType.
+SubTable (ID: 7, Name: factorial_7):
+└── (Pointer: 0x55c73a3f8bf0, Parent Pointer: 0x55c73a3eb7d0):
+    Name: n, Type: VarType_Int[0], FullName: factorial_7.n_var, Address: 0x55c73a3f9020
+    Name: result, Type: VarType_Int[0], FullName: factorial_7.result_var, Address: 0x55c73a3f91c0
+
+=== SEMANTIC ANALYSIS ===
+
+Performing semantic analysis on program
+node->data.funcDecl.funcSubTable: 0x55c73a3f22a0
+Pushed SubTable at index 1: (ID: 1, name: printInt_1, address: 0x55c73a3f22a0)
+    Index 1: (ID: 1, name: printInt_1, address: 0x55c73a3f22a0)
+        symTabRef: 0x55c73a3ea480
+    Comparing "value" and "value"newParam->type: VarType_Int
+SYMBOL_TABLE: Adding parameter VarType_Int value to function printInt
+    ===OPERAND STACK===
+     - i0
+    ===END OF OPERAND STACK===
+    Pushed new operand i0 to the stack
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+node->data.funcDecl.funcSubTable: 0x55c73a3f2990
+Pushed SubTable at index 1: (ID: 2, name: printChar_2, address: 0x55c73a3f2990)
+    Index 1: (ID: 2, name: printChar_2, address: 0x55c73a3f2990)
+        symTabRef: 0x55c73a3ea480
+    Comparing "value" and "value"newParam->type: VarType_Char
+SYMBOL_TABLE: Adding parameter VarType_Char value to function printChar
+    ===OPERAND STACK===
+     - c0
+    ===END OF OPERAND STACK===
+    Pushed new operand c0 to the stack
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+node->data.funcDecl.funcSubTable: 0x55c73a3f3080
+Pushed SubTable at index 1: (ID: 3, name: printFloat_3, address: 0x55c73a3f3080)
+    Index 1: (ID: 3, name: printFloat_3, address: 0x55c73a3f3080)
+        symTabRef: 0x55c73a3ea480
+    Comparing "value" and "value"newParam->type: VarType_Float
+SYMBOL_TABLE: Adding parameter VarType_Float value to function printFloat
+    ===OPERAND STACK===
+     - f0
+    ===END OF OPERAND STACK===
+    Pushed new operand f0 to the stack
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+node->data.funcDecl.funcSubTable: 0x55c73a3f3770
+Pushed SubTable at index 1: (ID: 4, name: computeSum_4, address: 0x55c73a3f3770)
+    Index 1: (ID: 4, name: computeSum_4, address: 0x55c73a3f3770)
+        symTabRef: 0x55c73a3ea480
+    Comparing "a" and "a"newParam->type: VarType_Int
+SYMBOL_TABLE: Adding parameter VarType_Int a to function computeSum
+        symTabRef: 0x55c73a3ea480
+    Comparing "b" and "b"newParam->type: VarType_Int
+SYMBOL_TABLE: Adding parameter VarType_Int b to function computeSum
+    ===OPERAND STACK===
+     - i1
+    ===END OF OPERAND STACK===
+    Pushed new operand i1 to the stack
+    ===OPERAND STACK===
+     - i1
+     - i2
+    ===END OF OPERAND STACK===
+    Pushed new operand i2 to the stack
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: +
+    ===OPERAND STACK===
+     - i1
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i3
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for computeSum_4.sum_var
+    ===OPERAND STACK===
+     - i4
+    ===END OF OPERAND STACK===
+    Pushed new operand i4 to the stack
+    ===OPERAND STACK===
+     - i4
+     - i5
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: +
+    ===OPERAND STACK===
+     - i4
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i6
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for computeSum_4.temp_var
+    ===OPERAND STACK===
+     - i7
+    ===END OF OPERAND STACK===
+    Pushed new operand i7 to the stack
+    ===OPERAND STACK===
+     - i7
+     - i8
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: *
+    ===OPERAND STACK===
+     - i7
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i9
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for computeSum_4.doubleSum_var
+    ===OPERAND STACK===
+     - f1
+    ===END OF OPERAND STACK===
+    Pushed new operand f1 to the stack
+    ===OPERAND STACK===
+     - f1
+     - i10
+    ===END OF OPERAND STACK===
+    Pushed new operand i10 to the stack
+    Type of left operand: VarType_Float
+    Type of right operand: VarType_Int
+    Operator: +
+    ===OPERAND STACK===
+     - f1
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - f3
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.globalFloat_var
+    ===OPERAND STACK===
+     - i11
+    ===END OF OPERAND STACK===
+    Pushed new operand i11 to the stack
+    ===OPERAND STACK===
+     - i11
+     - i12
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i11
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i13
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i14
+    ===END OF OPERAND STACK===
+    Pushed new operand i14 to the stack
+    ===OPERAND STACK===
+     - i14
+     - i15
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: +
+    ===OPERAND STACK===
+     - i14
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i16
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.globalInt_var
+    ===OPERAND STACK===
+     - c1
+    ===END OF OPERAND STACK===
+paramsTail: VarType_Char value
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Char c1
+currentParam: VarType_Char value
+    ===OPERAND STACK===
+     - i17
+    ===END OF OPERAND STACK===
+    Pushed new operand i17 to the stack
+    ===OPERAND STACK===
+     - i17
+     - i18
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: -
+    ===OPERAND STACK===
+     - i17
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i19
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.globalInt_var
+    ===OPERAND STACK===
+     - c2
+    ===END OF OPERAND STACK===
+paramsTail: VarType_Char value
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Char c2
+currentParam: VarType_Char value
+    ===OPERAND STACK===
+     - i20
+    ===END OF OPERAND STACK===
+    Pushed new operand i20 to the stack
+paramsTail: VarType_Int value
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i20
+currentParam: VarType_Int value
+    ===OPERAND STACK===
+     - i21
+    ===END OF OPERAND STACK===
+    Pushed new operand i21 to the stack
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+node->data.funcDecl.funcSubTable: 0x55c73a3f58a0
+Pushed SubTable at index 1: (ID: 5, name: displayResult_5, address: 0x55c73a3f58a0)
+    Index 1: (ID: 5, name: displayResult_5, address: 0x55c73a3f58a0)
+        symTabRef: 0x55c73a3ea480
+    Comparing "result" and "result"newParam->type: VarType_Int
+SYMBOL_TABLE: Adding parameter VarType_Int result to function displayResult
+    ===OPERAND STACK===
+     - i22
+    ===END OF OPERAND STACK===
+    Pushed new operand i22 to the stack
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for displayResult_5.localCopy_var
+    ===OPERAND STACK===
+     - i23
+    ===END OF OPERAND STACK===
+    Pushed new operand i23 to the stack
+    ===OPERAND STACK===
+     - i23
+     - i24
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: +
+    ===OPERAND STACK===
+     - i23
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i25
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for displayResult_5.localCopy_var
+    ===OPERAND STACK===
+     - i26
+    ===END OF OPERAND STACK===
+    Pushed new operand i26 to the stack
+    ===OPERAND STACK===
+     - i26
+     - i27
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: %
+    ===OPERAND STACK===
+     - i26
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i28
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i28
+     - i29
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i28
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i30
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - c3
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.globalChar_var
+    ===OPERAND STACK===
+     - c4
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.globalChar_var
+    ===OPERAND STACK===
+     - c5
+    ===END OF OPERAND STACK===
+    Pushed new operand c5 to the stack
+paramsTail: VarType_Char value
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Char c5
+currentParam: VarType_Char value
+    ===OPERAND STACK===
+     - i31
+    ===END OF OPERAND STACK===
+    Pushed new operand i31 to the stack
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.globalInt_var
+    ===OPERAND STACK===
+     - i32
+    ===END OF OPERAND STACK===
+    Pushed new operand i32 to the stack
+    ===OPERAND STACK===
+     - i32
+     - i33
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: *
+    ===OPERAND STACK===
+     - i32
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i34
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for displayResult_5.localCopy_var
+    ===OPERAND STACK===
+     - i35
+    ===END OF OPERAND STACK===
+    Pushed new operand i35 to the stack
+paramsTail: VarType_Int value
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i35
+currentParam: VarType_Int value
+    ===OPERAND STACK===
+     - c6
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+node->data.funcDecl.funcSubTable: 0x55c73a3f70d0
+Pushed SubTable at index 1: (ID: 6, name: multiply_6, address: 0x55c73a3f70d0)
+    Index 1: (ID: 6, name: multiply_6, address: 0x55c73a3f70d0)
+        symTabRef: 0x55c73a3ea480
+    Comparing "x" and "x"newParam->type: VarType_Int
+SYMBOL_TABLE: Adding parameter VarType_Int x to function multiply
+        symTabRef: 0x55c73a3ea480
+    Comparing "y" and "y"newParam->type: VarType_Int
+SYMBOL_TABLE: Adding parameter VarType_Int y to function multiply
+    ===OPERAND STACK===
+     - i36
+    ===END OF OPERAND STACK===
+    Pushed new operand i36 to the stack
+    ===OPERAND STACK===
+     - i36
+     - i37
+    ===END OF OPERAND STACK===
+    Pushed new operand i37 to the stack
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: *
+    ===OPERAND STACK===
+     - i36
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i38
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for multiply_6.product_var
+    ===OPERAND STACK===
+     - i39
+    ===END OF OPERAND STACK===
+    Pushed new operand i39 to the stack
+    ===OPERAND STACK===
+     - i39
+     - i40
+    ===END OF OPERAND STACK===
+    Pushed new operand i40 to the stack
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: *
+    ===OPERAND STACK===
+     - i39
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i41
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for multiply_6.square_var
+    ===OPERAND STACK===
+     - i42
+    ===END OF OPERAND STACK===
+    Pushed new operand i42 to the stack
+    ===OPERAND STACK===
+     - i42
+     - i43
+    ===END OF OPERAND STACK===
+    Pushed new operand i43 to the stack
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: +
+    ===OPERAND STACK===
+     - i42
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i44
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for multiply_6.tempResult_var
+    ===OPERAND STACK===
+     - i45
+    ===END OF OPERAND STACK===
+    Pushed new operand i45 to the stack
+    ===OPERAND STACK===
+     - i45
+     - i46
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i45
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i47
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - f4
+    ===END OF OPERAND STACK===
+    Pushed new operand f4 to the stack
+    ===OPERAND STACK===
+     - f4
+     - f5
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Float
+    Type of right operand: VarType_Float
+    Operator: /
+    ===OPERAND STACK===
+     - f4
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - f6
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.globalFloat_var
+    ===OPERAND STACK===
+     - f7
+    ===END OF OPERAND STACK===
+    Pushed new operand f7 to the stack
+paramsTail: VarType_Float value
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Float f7
+currentParam: VarType_Float value
+    ===OPERAND STACK===
+     - i48
+    ===END OF OPERAND STACK===
+    Pushed new operand i48 to the stack
+paramsTail: VarType_Int value
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i48
+currentParam: VarType_Int value
+    ===OPERAND STACK===
+     - i49
+    ===END OF OPERAND STACK===
+    Pushed new operand i49 to the stack
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+node->data.funcDecl.funcSubTable: 0x55c73a3f8bf0
+Pushed SubTable at index 1: (ID: 7, name: factorial_7, address: 0x55c73a3f8bf0)
+    Index 1: (ID: 7, name: factorial_7, address: 0x55c73a3f8bf0)
+        symTabRef: 0x55c73a3ea480
+    Comparing "n" and "n"newParam->type: VarType_Int
+SYMBOL_TABLE: Adding parameter VarType_Int n to function factorial
+    ===OPERAND STACK===
+     - i50
+    ===END OF OPERAND STACK===
+    Pushed new operand i50 to the stack
+    ===OPERAND STACK===
+     - i50
+     - i51
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i50
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i52
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i53
+    ===END OF OPERAND STACK===
+paramsTail: VarType_Int value
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i53
+currentParam: VarType_Int value
+    ===OPERAND STACK===
+     - i54
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i55
+    ===END OF OPERAND STACK===
+    Pushed new operand i55 to the stack
+    ===OPERAND STACK===
+     - i55
+     - i56
+    ===END OF OPERAND STACK===
+    Pushed new operand i56 to the stack
+    ===OPERAND STACK===
+     - i55
+     - i56
+     - i57
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: -
+    ===OPERAND STACK===
+     - i55
+     - i56
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i55
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i55
+     - i58
+    ===END OF OPERAND STACK===
+paramsTail: VarType_Int n
+    ===OPERAND STACK===
+     - i55
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i58
+currentParam: VarType_Int n
+    ===OPERAND STACK===
+     - i55
+     - returnInt
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: *
+    ===OPERAND STACK===
+     - i55
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i59
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for factorial_7.result_var
+    ===OPERAND STACK===
+     - i60
+    ===END OF OPERAND STACK===
+    Pushed new operand i60 to the stack
+paramsTail: VarType_Int value
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i60
+currentParam: VarType_Int value
+    ===OPERAND STACK===
+     - i61
+    ===END OF OPERAND STACK===
+    Pushed new operand i61 to the stack
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+node->data.funcDecl.funcSubTable: 0x55c73a3f9e80
+Pushed SubTable at index 1: (ID: 8, name: isPrime_8, address: 0x55c73a3f9e80)
+    Index 1: (ID: 8, name: isPrime_8, address: 0x55c73a3f9e80)
+        symTabRef: 0x55c73a3ea480
+    Comparing "n" and "n"newParam->type: VarType_Int
+SYMBOL_TABLE: Adding parameter VarType_Int n to function isPrime
+    ===OPERAND STACK===
+     - i62
+    ===END OF OPERAND STACK===
+    Pushed new operand i62 to the stack
+    ===OPERAND STACK===
+     - i62
+     - i63
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i62
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i64
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i65
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i66
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for isPrime_8.i_var
+    ===OPERAND STACK===
+     - i67
+    ===END OF OPERAND STACK===
+    Pushed new operand i67 to the stack
+    ===OPERAND STACK===
+     - i67
+     - i68
+    ===END OF OPERAND STACK===
+    Pushed new operand i68 to the stack
+    ===OPERAND STACK===
+     - i67
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i69
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===LABEL STACK===
+     - L9
+    ===END OF LABEL STACK===
+    ===OPERAND STACK===
+     - i70
+    ===END OF OPERAND STACK===
+    Pushed new operand i70 to the stack
+    ===OPERAND STACK===
+     - i70
+     - i71
+    ===END OF OPERAND STACK===
+    Pushed new operand i71 to the stack
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: %
+    ===OPERAND STACK===
+     - i70
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i72
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i72
+     - i73
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i72
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i74
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - c7
+    ===END OF OPERAND STACK===
+paramsTail: VarType_Char value
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Char c7
+currentParam: VarType_Char value
+    ===OPERAND STACK===
+     - i75
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i76
+    ===END OF OPERAND STACK===
+    Pushed new operand i76 to the stack
+    ===OPERAND STACK===
+     - i76
+     - i77
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: +
+    ===OPERAND STACK===
+     - i76
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i78
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for isPrime_8.i_var
+    ===LABEL STACK===
+    ===END OF LABEL STACK===
+    ===OPERAND STACK===
+     - c8
+    ===END OF OPERAND STACK===
+paramsTail: VarType_Char value
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Char c8
+currentParam: VarType_Char value
+    ===OPERAND STACK===
+     - i79
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i80
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.localInt_var
+    ===OPERAND STACK===
+     - f8
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.localFloat_var
+    ===OPERAND STACK===
+     - i81
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.globalInt_var
+    ===OPERAND STACK===
+     - c9
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.globalChar_var
+    ===OPERAND STACK===
+     - i82
+    ===END OF OPERAND STACK===
+    Pushed new operand i82 to the stack
+paramsTail: VarType_Int value
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i82
+currentParam: VarType_Int value
+    ===OPERAND STACK===
+     - c10
+    ===END OF OPERAND STACK===
+    Pushed new operand c10 to the stack
+paramsTail: VarType_Char value
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Char c10
+currentParam: VarType_Char value
+    ===OPERAND STACK===
+     - f9
+    ===END OF OPERAND STACK===
+    Pushed new operand f9 to the stack
+paramsTail: VarType_Float value
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Float f9
+currentParam: VarType_Float value
+    ===OPERAND STACK===
+     - i83
+    ===END OF OPERAND STACK===
+    Pushed new operand i83 to the stack
+    ===OPERAND STACK===
+     - i83
+     - i84
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: *
+    ===OPERAND STACK===
+     - i83
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i85
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i85
+     - i86
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: +
+    ===OPERAND STACK===
+     - i85
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i87
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i87
+     - i88
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i87
+     - i88
+     - i89
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: -
+    ===OPERAND STACK===
+     - i87
+     - i88
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i87
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i87
+     - i90
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: /
+    ===OPERAND STACK===
+     - i87
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i91
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i91
+     - i92
+    ===END OF OPERAND STACK===
+    Pushed new operand i92 to the stack
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: +
+    ===OPERAND STACK===
+     - i91
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i93
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.result_var
+    ===OPERAND STACK===
+     - i94
+    ===END OF OPERAND STACK===
+    Pushed new operand i94 to the stack
+    ===OPERAND STACK===
+     - i94
+     - i95
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i94
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i96
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i97
+    ===END OF OPERAND STACK===
+    Pushed new operand i97 to the stack
+    ===OPERAND STACK===
+     - i97
+     - i98
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: *
+    ===OPERAND STACK===
+     - i97
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i99
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.temp_var
+    ===OPERAND STACK===
+     - i100
+    ===END OF OPERAND STACK===
+    Pushed new operand i100 to the stack
+paramsTail: VarType_Int result
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i100
+currentParam: VarType_Int result
+    ===OPERAND STACK===
+     - i101
+    ===END OF OPERAND STACK===
+    Pushed new operand i101 to the stack
+    ===OPERAND STACK===
+     - i101
+     - i102
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: -
+    ===OPERAND STACK===
+     - i101
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i103
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.temp_var
+    ===OPERAND STACK===
+     - i104
+    ===END OF OPERAND STACK===
+    Pushed new operand i104 to the stack
+    ===OPERAND STACK===
+     - i104
+     - i105
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: +
+    ===OPERAND STACK===
+     - i104
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i106
+    ===END OF OPERAND STACK===
+paramsTail: VarType_Int result
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i106
+currentParam: VarType_Int result
+    ===OPERAND STACK===
+     - i107
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.i_var
+    ===OPERAND STACK===
+     - i108
+    ===END OF OPERAND STACK===
+    Pushed new operand i108 to the stack
+    ===OPERAND STACK===
+     - i108
+     - i109
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i108
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i110
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===LABEL STACK===
+     - L14
+    ===END OF LABEL STACK===
+    ===OPERAND STACK===
+     - i111
+    ===END OF OPERAND STACK===
+    Pushed new operand i111 to the stack
+    ===OPERAND STACK===
+     - i111
+     - i112
+    ===END OF OPERAND STACK===
+    Pushed new operand i112 to the stack
+    ===OPERAND STACK===
+     - i111
+     - i112
+     - i113
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: +
+    ===OPERAND STACK===
+     - i111
+     - i112
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i111
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i111
+     - i114
+    ===END OF OPERAND STACK===
+paramsTail: VarType_Int y
+    ===OPERAND STACK===
+     - i111
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i114
+currentParam: VarType_Int y
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i111
+currentParam: VarType_Int x
+    ===OPERAND STACK===
+     - returnInt
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.result_var
+    ===OPERAND STACK===
+     - i115
+    ===END OF OPERAND STACK===
+    Pushed new operand i115 to the stack
+    ===OPERAND STACK===
+     - i115
+     - i116
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i115
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i117
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i118
+    ===END OF OPERAND STACK===
+    Pushed new operand i118 to the stack
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.globalInt_var
+    ===OPERAND STACK===
+     - i119
+    ===END OF OPERAND STACK===
+    Pushed new operand i119 to the stack
+    ===OPERAND STACK===
+     - i119
+     - i120
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: +
+    ===OPERAND STACK===
+     - i119
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i121
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.globalInt_var
+    ===OPERAND STACK===
+     - i122
+    ===END OF OPERAND STACK===
+    Pushed new operand i122 to the stack
+paramsTail: VarType_Int value
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i122
+currentParam: VarType_Int value
+    ===OPERAND STACK===
+     - i123
+    ===END OF OPERAND STACK===
+    Pushed new operand i123 to the stack
+    ===OPERAND STACK===
+     - i123
+     - i124
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: +
+    ===OPERAND STACK===
+     - i123
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i125
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.i_var
+    ===LABEL STACK===
+    ===END OF LABEL STACK===
+    ===OPERAND STACK===
+     - i126
+    ===END OF OPERAND STACK===
+paramsTail: VarType_Int n
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i126
+currentParam: VarType_Int n
+    ===OPERAND STACK===
+     - returnInt
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.result_var
+    ===OPERAND STACK===
+     - i127
+    ===END OF OPERAND STACK===
+    Pushed new operand i127 to the stack
+paramsTail: VarType_Int value
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i127
+currentParam: VarType_Int value
+    ===OPERAND STACK===
+     - i128
+    ===END OF OPERAND STACK===
+    Pushed new operand i128 to the stack
+paramsTail: VarType_Int n
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i128
+currentParam: VarType_Int n
+    ===OPERAND STACK===
+     - returnInt
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i129
+    ===END OF OPERAND STACK===
+    Pushed new operand i129 to the stack
+paramsTail: VarType_Int result
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i129
+currentParam: VarType_Int result
+    ===OPERAND STACK===
+     - i130
+    ===END OF OPERAND STACK===
+    Pushed new operand i130 to the stack
+    ===OPERAND STACK===
+     - i130
+     - i131
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: -
+    ===OPERAND STACK===
+     - i130
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i132
+    ===END OF OPERAND STACK===
+paramsTail: VarType_Int result
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i132
+currentParam: VarType_Int result
+    ===OPERAND STACK===
+     - i133
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i133
+     - i134
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: *
+    ===OPERAND STACK===
+     - i133
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i135
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.temp_var
+    ===OPERAND STACK===
+     - i136
+    ===END OF OPERAND STACK===
+    Pushed new operand i136 to the stack
+    ===OPERAND STACK===
+     - i136
+     - i137
+    ===END OF OPERAND STACK===
+    Type of left operand: VarType_Int
+    Type of right operand: VarType_Int
+    Operator: +
+    ===OPERAND STACK===
+     - i136
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+     - i138
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.result_var
+    ===OPERAND STACK===
+     - i139
+    ===END OF OPERAND STACK===
+    Pushed new operand i139 to the stack
+paramsTail: VarType_Int value
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i139
+currentParam: VarType_Int value
+    ===OPERAND STACK===
+     - i140
+    ===END OF OPERAND STACK===
+    Pushed new operand i140 to the stack
+    ===OPERAND STACK===
+     - i140
+     - i141
+    ===END OF OPERAND STACK===
+paramsTail: VarType_Int b
+    ===OPERAND STACK===
+     - i140
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i141
+currentParam: VarType_Int b
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i140
+currentParam: VarType_Int a
+    ===OPERAND STACK===
+     - returnInt
+    ===END OF OPERAND STACK===
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+Completed assign statement for main_0.result_var
+    ===OPERAND STACK===
+     - i142
+    ===END OF OPERAND STACK===
+    Pushed new operand i142 to the stack
+paramsTail: VarType_Int result
+    ===OPERAND STACK===
+    ===END OF OPERAND STACK===
+argOperand: VarType_Int i142
+currentParam: VarType_Int result
+
+=== TAC GENERATION ===
+TAC written to output/TAC.ir
+==Function 0 TAC==
+(null) = (null) funcStart (null)
+i0 = printInt_1.value_var load.int (null)
+(null) = i0 write.int (null)
+(null) = (null) return (null)
+Function TAC written to output/FunctionTAC0.ir
+==Function 1 TAC==
+(null) = (null) funcStart (null)
+c0 = printChar_2.value_var load.char (null)
+(null) = c0 write.char (null)
+(null) = (null) return (null)
+Function TAC written to output/FunctionTAC1.ir
+==Function 2 TAC==
+(null) = (null) funcStart (null)
+f0 = printFloat_3.value_var load.float (null)
+(null) = f0 write.float (null)
+(null) = (null) return (null)
+Function TAC written to output/FunctionTAC2.ir
+==Function 3 TAC==
+(null) = (null) funcStart (null)
+i1 = computeSum_4.a_var load.int (null)
+i2 = computeSum_4.b_var load.int (null)
+i3 = i1 +.int i2
+computeSum_4.sum_var = i3 store.int (null)
+i4 = computeSum_4.sum_var load.int (null)
+i5 = 5 assign.int (null)
+i6 = i4 +.int i5
+computeSum_4.temp_var = i6 store.int (null)
+i7 = computeSum_4.temp_var load.int (null)
+i8 = 2 assign.int (null)
+i9 = i7 *.int i8
+computeSum_4.doubleSum_var = i9 store.int (null)
+f1 = main_0.globalFloat_var load.float (null)
+i10 = computeSum_4.sum_var load.int (null)
+f2 = i10 intToFloat (null)
+f3 = f1 +.float f2
+main_0.globalFloat_var = f3 store.float (null)
+i11 = computeSum_4.doubleSum_var load.int (null)
+i12 = 50 assign.int (null)
+i13 = i11 >.int i12
+L0 = i13 ifFalse (null)
+i14 = main_0.globalInt_var load.int (null)
+i15 = 10 assign.int (null)
+i16 = i14 +.int i15
+main_0.globalInt_var = i16 store.int (null)
+c1 = H assign.char (null)
+printChar_2.value_var = c1 load.char (null)
+(null) = printChar_func functionCall (null)
+L1 = (null) goto (null)
+L0 = (null) label (null)
+i17 = main_0.globalInt_var load.int (null)
+i18 = 5 assign.int (null)
+i19 = i17 -.int i18
+main_0.globalInt_var = i19 store.int (null)
+c2 = L assign.char (null)
+printChar_2.value_var = c2 load.char (null)
+(null) = printChar_func functionCall (null)
+L1 = (null) label (null)
+i20 = computeSum_4.doubleSum_var load.int (null)
+printInt_1.value_var = i20 load.int (null)
+(null) = printInt_func functionCall (null)
+i21 = computeSum_4.doubleSum_var load.int (null)
+returnInt = i21 store.int (null)
+(null) = (null) return (null)
+(null) = (null) return (null)
+Function TAC written to output/FunctionTAC3.ir
+==Function 4 TAC==
+(null) = (null) funcStart (null)
+i22 = displayResult_5.result_var load.int (null)
+displayResult_5.localCopy_var = i22 store.int (null)
+i23 = displayResult_5.localCopy_var load.int (null)
+i24 = 1 assign.int (null)
+i25 = i23 +.int i24
+displayResult_5.localCopy_var = i25 store.int (null)
+i26 = displayResult_5.localCopy_var load.int (null)
+i27 = 2 assign.int (null)
+i28 = i26 %.int i27
+i29 = 0 assign.int (null)
+i30 = i28 ==.int i29
+L2 = i30 ifFalse (null)
+c3 = E assign.char (null)
+main_0.globalChar_var = c3 store.char (null)
+L3 = (null) goto (null)
+L2 = (null) label (null)
+c4 = O assign.char (null)
+main_0.globalChar_var = c4 store.char (null)
+L3 = (null) label (null)
+c5 = main_0.globalChar_var load.char (null)
+printChar_2.value_var = c5 load.char (null)
+(null) = printChar_func functionCall (null)
+i31 = displayResult_5.localCopy_var load.int (null)
+main_0.globalInt_var = i31 store.int (null)
+i32 = displayResult_5.localCopy_var load.int (null)
+i33 = 3 assign.int (null)
+i34 = i32 *.int i33
+displayResult_5.localCopy_var = i34 store.int (null)
+i35 = displayResult_5.localCopy_var load.int (null)
+printInt_1.value_var = i35 load.int (null)
+(null) = printInt_func functionCall (null)
+c6 = - assign.char (null)
+(null) = c6 write.char (null)
+(null) = (null) return (null)
+Function TAC written to output/FunctionTAC4.ir
+==Function 5 TAC==
+(null) = (null) funcStart (null)
+i36 = multiply_6.x_var load.int (null)
+i37 = multiply_6.y_var load.int (null)
+i38 = i36 *.int i37
+multiply_6.product_var = i38 store.int (null)
+i39 = multiply_6.x_var load.int (null)
+i40 = multiply_6.x_var load.int (null)
+i41 = i39 *.int i40
+multiply_6.square_var = i41 store.int (null)
+i42 = multiply_6.product_var load.int (null)
+i43 = multiply_6.square_var load.int (null)
+i44 = i42 +.int i43
+multiply_6.tempResult_var = i44 store.int (null)
+i45 = multiply_6.tempResult_var load.int (null)
+i46 = 50 assign.int (null)
+i47 = i45 >.int i46
+L4 = i47 ifFalse (null)
+f4 = main_0.globalFloat_var load.float (null)
+f5 = 2.000000 assign.float (null)
+f6 = f4 /.float f5
+main_0.globalFloat_var = f6 store.float (null)
+f7 = main_0.globalFloat_var load.float (null)
+printFloat_3.value_var = f7 load.float (null)
+(null) = printFloat_func functionCall (null)
+L4 = (null) label (null)
+i48 = multiply_6.tempResult_var load.int (null)
+printInt_1.value_var = i48 load.int (null)
+(null) = printInt_func functionCall (null)
+i49 = multiply_6.tempResult_var load.int (null)
+returnInt = i49 store.int (null)
+(null) = (null) return (null)
+(null) = (null) return (null)
+Function TAC written to output/FunctionTAC5.ir
+==Function 6 TAC==
+(null) = (null) funcStart (null)
+i50 = factorial_7.n_var load.int (null)
+i51 = 1 assign.int (null)
+i52 = i50 <=.int i51
+L5 = i52 ifFalse (null)
+i53 = 1 assign.int (null)
+printInt_1.value_var = i53 load.int (null)
+(null) = printInt_func functionCall (null)
+i54 = 1 assign.int (null)
+returnInt = i54 store.int (null)
+(null) = (null) return (null)
+L6 = (null) goto (null)
+L5 = (null) label (null)
+i55 = factorial_7.n_var load.int (null)
+i56 = factorial_7.n_var load.int (null)
+i57 = 1 assign.int (null)
+i58 = i56 -.int i57
+factorial_7.n_var = i58 load.int (null)
+returnInt = factorial_func functionCall (null)
+i59 = i55 *.int returnInt
+factorial_7.result_var = i59 store.int (null)
+i60 = factorial_7.result_var load.int (null)
+printInt_1.value_var = i60 load.int (null)
+(null) = printInt_func functionCall (null)
+i61 = factorial_7.result_var load.int (null)
+returnInt = i61 store.int (null)
+(null) = (null) return (null)
+L6 = (null) label (null)
+(null) = (null) return (null)
+Function TAC written to output/FunctionTAC6.ir
+==Function 7 TAC==
+(null) = (null) funcStart (null)
+i62 = isPrime_8.n_var load.int (null)
+i63 = 1 assign.int (null)
+i64 = i62 <=.int i63
+L7 = i64 ifFalse (null)
+i65 = 0 assign.int (null)
+returnInt = i65 store.int (null)
+(null) = (null) return (null)
+L7 = (null) label (null)
+i66 = 2 assign.int (null)
+isPrime_8.i_var = i66 store.int (null)
+L8 = (null) label (null)
+i67 = isPrime_8.i_var load.int (null)
+i68 = isPrime_8.n_var load.int (null)
+i69 = i67 <.int i68
+L9 = i69 ifFalse (null)
+i70 = isPrime_8.n_var load.int (null)
+i71 = isPrime_8.i_var load.int (null)
+i72 = i70 %.int i71
+i73 = 0 assign.int (null)
+i74 = i72 ==.int i73
+L10 = i74 ifFalse (null)
+c7 = N assign.char (null)
+printChar_2.value_var = c7 load.char (null)
+(null) = printChar_func functionCall (null)
+i75 = 0 assign.int (null)
+returnInt = i75 store.int (null)
+(null) = (null) return (null)
+L10 = (null) label (null)
+i76 = isPrime_8.i_var load.int (null)
+i77 = 1 assign.int (null)
+i78 = i76 +.int i77
+isPrime_8.i_var = i78 store.int (null)
+L8 = (null) goto (null)
+L9 = (null) label (null)
+c8 = P assign.char (null)
+printChar_2.value_var = c8 load.char (null)
+(null) = printChar_func functionCall (null)
+i79 = 1 assign.int (null)
+returnInt = i79 store.int (null)
+(null) = (null) return (null)
+(null) = (null) return (null)
+Function TAC written to output/FunctionTAC7.ir
+
+=== CODE GENERATION ===
+currentSym, varType: 0x55c73a3f4170, VarType_Int
+currentSym, varType: 0x55c73a3f3ea0, VarType_Int
+currentSym, varType: 0x55c73a3f4000, VarType_Int
+currentSym, varType: 0x55c73a3f3ba0, VarType_Int
+currentSym, varType: 0x55c73a3f3cc0, VarType_Int
+currentSym, varType: 0x55c73a3f7ac0, VarType_Int
+currentSym, varType: 0x55c73a3f7960, VarType_Int
+currentSym, varType: 0x55c73a3f7500, VarType_Int
+currentSym, varType: 0x55c73a3f7620, VarType_Int
+currentSym, varType: 0x55c73a3f7800, VarType_Int
+currentSym, varType: 0x55c73a3f34b0, VarType_Float
+currentSym, varType: 0x55c73a3f5e80, VarType_Int
+currentSym, varType: 0x55c73a3f5cd0, VarType_Int
+currentSym, varType: 0x55c73a3fb810, VarType_Int
+currentSym, varType: 0x55c73a3f7030, VarType_Int
+currentSym, varType: 0x55c73a3f8b50, VarType_Int
+currentSym, varType: 0x55c73a3fbad0, VarType_Int
+currentSym, varType: 0x55c73a3f2fe0, VarType_Void
+currentSym, varType: 0x55c73a3f1ce0, VarType_Int
+currentSym, varType: 0x55c73a3fb970, VarType_Int
+currentSym, varType: 0x55c73a3f57f0, VarType_Void
+currentSym, varType: 0x55c73a3fb6b0, VarType_Float
+currentSym, varType: 0x55c73a3f1fa0, VarType_Float
+currentSym, varType: 0x55c73a3f28f0, VarType_Void
+currentSym, varType: 0x55c73a3f1e40, VarType_Char
+currentSym, varType: 0x55c73a3fb550, VarType_Int
+currentSym, varType: 0x55c73a3f2200, VarType_Void
+currentSym, varType: 0x55c73a3f9de0, VarType_Int
+currentSym, varType: 0x55c73a3f36d0, VarType_Int
+currentSym, varType: 0x55c73a3f2100, VarType_Int
+currentSym, varType: 0x55c73a3fa450, VarType_Int
+currentSym, varType: 0x55c73a3fa2b0, VarType_Int
+currentSym, varType: 0x55c73a3f26d0, VarType_Int
+currentSym, varType: 0x55c73a3f2dc0, VarType_Char
+currentSym, varType: 0x55c73a3f9020, VarType_Int
+currentSym, varType: 0x55c73a3f91c0, VarType_Int
+MIPS code generated and saved to file output/output.asm
+Compilation time: 0.0017 seconds

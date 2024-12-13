@@ -1,0 +1,33 @@
+int returnValue;
+int x;
+
+int testFunc(int param1, int param2)
+{
+    int x;
+    int b; //Dummy var to test reserved keyword prevention
+    x = param1 + param2;
+    write x;
+
+    x = x + 109;
+
+    return x;
+}
+
+void voidFunc(int variable)
+{
+    int a;
+    
+    write variable;
+
+    a = testFunc(31 * 234, 21);
+    write a;
+
+    return;
+}
+
+x = 404;
+write x;
+returnValue = testFunc(5, 26);
+voidFunc(returnValue + 50 * 3);
+write returnValue;
+write x;

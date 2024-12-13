@@ -1,0 +1,35 @@
+int inputVal;
+
+void ifTest(float x, int forcePrint) //0 = false, non-zero = true
+{
+    if (x >= 90)
+    {
+        write x;
+    }
+    else if (x == 70 && forcePrint)
+    {
+        write 'F';
+        write x;
+    }
+    else
+    {
+        write '-';
+    }
+}
+
+ifTest(100.0, true);
+ifTest(70.0, true);
+ifTest(100.0, false);
+ifTest(80.0, true);
+write -5;
+write false;
+write (100.0 >= 90 || false);
+write ('B' == 'B');
+write ('B' == 'C');
+write ('B' != 'b');
+write ('B' != 'B');
+write (-8);
+write -3.141;
+write !false;
+write !true;
+write !101; //NOT of non-zero equals zero

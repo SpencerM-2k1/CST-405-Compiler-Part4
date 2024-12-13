@@ -1,0 +1,4 @@
+(null) = (null) funcStart (null)
+i0 = printInt_1.value_var load.int (null)
+(null) = i0 write.int (null)
+(null) = (null) return (null)
